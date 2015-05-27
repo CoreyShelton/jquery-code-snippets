@@ -9,6 +9,8 @@ To use this feature:
 
 Now when the link is clicked the page will scroll down or up to the html element with that associated ID
 
+# Example
+
 #### HTML
 ```html
 <a class="page-scroll" href="#contact">Contact Me</a>

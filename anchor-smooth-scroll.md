@@ -24,13 +24,13 @@ Now when the link is clicked the page will scroll down or up to the html element
 ```javascript
 (function($) {
     $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
+        var anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+            scrollTop: ($(anchor.attr('href')).offset().top - 50)
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
 })(jQuery);
 ```
 
-\*Please note that ```scrollTop: ($($anchor.attr('href')).offset().top - 50)``` means that the top of the page will scroll to 50px above the specifed \*\*html element (\*\*as denoted via the elements ID)
+\*Please note that ```scrollTop: ($(anchor.attr('href')).offset().top - 50)``` means that the top of the page will scroll to 50px above the specifed \*\*html element (\*\*as denoted via the elements ID)

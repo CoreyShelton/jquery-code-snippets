@@ -8,7 +8,7 @@ div but never smaller. This is great for things such as masonry like layouts.
 
 ### jQuery
 ```javascript
-$('.container').css('min-height', $(‘.main-container').height());
+$('.container').css('min-height', $('.main-container').height());
 ```
 
 ### HTML

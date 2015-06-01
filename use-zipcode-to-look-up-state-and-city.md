@@ -9,6 +9,8 @@ Required Dependicies Include:
 - Google Maps API: ```<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>```
 - jQuery: ```<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>```
 
+***
+
 ### Code
 ```html
 <!DOCTYPE html>
